@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.11" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Chat SMS Privacy Policy</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1 id="chat-sms-privacy-policy">Chat SMS: Privacy Policy</h1>
+<p><em>Last updated: 8 November 2026</em></p>
+<p>Chat SMS (“the app”) is an SMS/MMS messaging, phone (dialer),
+contacts and calendar app for Android, published by Joel Harold Onyango
+(H0J-MQH Holdings Limited). This policy explains what the app accesses,
+why, and where that data goes.</p>
+<p><strong>Summary:</strong> the app has no server and no accounts. It
+does not show ads, use analytics, or sell or share your data. Everything
+stays on your device unless you choose one of the optional features in
+section 3.</p>
+<h2 id="data-the-app-accesses-and-why">1. Data the app accesses and
+why</h2>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Data</th>
+<th>Permission</th>
+<th>Why</th>
+<th>Leaves the device?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SMS and MMS messages</td>
+<td>READ_SMS, RECEIVE_SMS, RECEIVE_MMS, SEND_SMS</td>
+<td>As your default SMS app: show conversations, send messages you write
+or schedule, and notify you of new messages</td>
+<td>Only through your mobile carrier, as normal SMS/MMS</td>
+</tr>
+<tr>
+<td>Call history</td>
+<td>READ_CALL_LOG, WRITE_CALL_LOG</td>
+<td>As your default phone app: show the Recents tab, call details, and
+delete entries you choose</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Phone calls</td>
+<td>CALL_PHONE, USE_FULL_SCREEN_INTENT</td>
+<td>Place calls you start; show the incoming-call screen, including over
+the lock screen</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Contacts</td>
+<td>READ_CONTACTS, WRITE_CONTACTS</td>
+<td>Name your chats and calls; add, edit, favourite, block or delete a
+contact when you ask</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Calendar</td>
+<td>READ_CALENDAR, WRITE_CALENDAR</td>
+<td>Show and edit your calendar events in the Calendar tab</td>
+<td>No (your own calendar account syncs as usual)</td>
+</tr>
+<tr>
+<td>SIM information</td>
+<td>READ_PHONE_STATE</td>
+<td>List your SIM cards so you can choose which one sends or calls</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Notifications, reboot, alarms</td>
+<td>POST_NOTIFICATIONS, RECEIVE_BOOT_COMPLETED,
+SCHEDULE_EXACT_ALARM</td>
+<td>Message and call alerts; keep scheduled messages and reminders after
+a restart; ring reminders on time</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Fingerprint / face</td>
+<td>USE_BIOMETRIC</td>
+<td>Optional app lock</td>
+<td>No (Android handles it; the app never sees biometric data)</td>
+</tr>
+</tbody>
+</table>
+<p>The app <strong>does not record calls</strong> and <strong>does not
+record or store audio</strong>. Voice dictation uses Android’s system
+speech service, which is covered by that service’s own policy.</p>
+<h2 id="data-stored-on-your-device">2. Data stored on your device</h2>
+<ul>
+<li>Messages, contacts, call history and calendar events stay in
+Android’s own system stores.</li>
+<li>Reminders, journal entries, notes, settings, any AI API key you
+enter, and a local security log are stored in the app’s private storage,
+encrypted with AES-256-GCM.</li>
+<li>Uninstalling the app deletes this data. You can also delete it at
+any time in Android Settings → Apps → Chat SMS → Storage → Clear
+data.</li>
+</ul>
+<h2 id="optional-features-that-send-data-off-the-device">3. Optional
+features that send data off the device</h2>
+<p>Nothing below happens unless you turn it on or tap it.</p>
+<ul>
+<li><strong>AI insights.</strong> When you tap ✨ and confirm, the text
+of the conversation that is open is sent over HTTPS to the AI provider
+you chose (Google Gemini or OpenAI), using an API key you supplied. That
+provider’s privacy policy applies to the request. Nothing is sent
+automatically or in the background.</li>
+<li><strong>Ask another AI app.</strong> This hands text you select to
+an AI app or website you pick (for example Claude, ChatGPT, DeepSeek or
+Gemini) through Android’s normal share/open mechanism.</li>
+<li><strong>Security alerts by e-mail.</strong> If you enter your own
+e-mail address and mail account in Settings, the app e-mails you
+high-severity security events, such as another app taking over SMS, or a
+SIM change. They go only to the address you set.</li>
+<li><strong>Sharing and WhatsApp.</strong> When you share something, or
+choose “Reply on WhatsApp”, the text goes to the app you picked.</li>
+</ul>
+<h2 id="what-the-app-does-not-do">4. What the app does not do</h2>
+<ul>
+<li>No advertising and no advertising IDs.</li>
+<li>No analytics, crash-reporting or tracking SDKs.</li>
+<li>No sale, rental or sharing of personal data.</li>
+<li>No accounts, and no server of our own.</li>
+</ul>
+<h2 id="children">5. Children</h2>
+<p>The app is not directed at children under 13 and does not knowingly
+collect their data.</p>
+<h2 id="security">6. Security</h2>
+<p>Data at rest is encrypted as described in section 2. Data in transit
+for the optional features in section 3 uses HTTPS or TLS.</p>
+<h2 id="changes">7. Changes</h2>
+<p>If this policy changes, the new version will be posted at the same
+address with a new “Last updated” date. Material changes are also shown
+in the app.</p>
+<h2 id="contact">8. Contact</h2>
+<p>Joel Harold Onyango, H0J-MQH Holdings Limited, Nairobi, Kenya.
+E-mail: juelharold@gmail.com</p>
+<footer>A H0J-MQH HOLDINGS PRODUCT · © 2026 Joel Harold Onyango</footer>
+</body>
+</html>
